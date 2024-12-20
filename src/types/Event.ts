@@ -1,7 +1,7 @@
 export interface Event {
   id: number;
   title: string;
-  start: string;
+  start: string | number;
   end: string;
   description: string;
   image: string;
